@@ -1,0 +1,134 @@
+{
+  "name": "Mi mapa",
+  "version": 2,
+  "width": 1672,
+  "height": 941,
+  "unitSet": "terrestrial",
+  "humanBase": {
+    "type": "humanBase",
+    "x": 757,
+    "y": 888
+  },
+  "aiBase": {
+    "type": "aiBase",
+    "x": 218,
+    "y": 78
+  },
+  "resources": [
+    {
+      "type": "mineral",
+      "x": 391,
+      "y": 81
+    },
+    {
+      "type": "mineral",
+      "x": 203,
+      "y": 244
+    },
+    {
+      "type": "mineral",
+      "x": 603,
+      "y": 881
+    },
+    {
+      "type": "mineral",
+      "x": 1052,
+      "y": 915
+    },
+    {
+      "type": "oil",
+      "x": 156,
+      "y": 137
+    },
+    {
+      "type": "oil",
+      "x": 154,
+      "y": 371
+    },
+    {
+      "type": "oil",
+      "x": 671,
+      "y": 912
+    },
+    {
+      "type": "oil",
+      "x": 643,
+      "y": 797
+    },
+    {
+      "type": "water",
+      "x": 469,
+      "y": 913
+    },
+    {
+      "type": "water",
+      "x": 922,
+      "y": 897
+    },
+    {
+      "type": "water",
+      "x": 833,
+      "y": 708
+    },
+    {
+      "type": "water",
+      "x": 898,
+      "y": 297
+    },
+    {
+      "type": "water",
+      "x": 838,
+      "y": 218
+    },
+    {
+      "type": "water",
+      "x": 1052,
+      "y": 507
+    },
+    {
+      "type": "water",
+      "x": 1207,
+      "y": 782
+    },
+    {
+      "type": "water",
+      "x": 1276,
+      "y": 878
+    },
+    {
+      "type": "water",
+      "x": 738,
+      "y": 81
+    },
+    {
+      "type": "water",
+      "x": 1328,
+      "y": 354
+    },
+    {
+      "type": "water",
+      "x": 1392,
+      "y": 491
+    },
+    {
+      "type": "water",
+      "x": 1165,
+      "y": 172
+    },
+    {
+      "type": "water",
+      "x": 1338,
+      "y": 184
+    },
+    {
+      "type": "water",
+      "x": 187,
+      "y": 300
+    }
+  ],
+  "navPalette": {
+    "green": "#30D481",
+    "black": "#121820",
+    "red": "#EE5D65"
+  }
+}
