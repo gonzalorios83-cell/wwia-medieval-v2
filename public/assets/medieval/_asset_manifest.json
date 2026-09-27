@@ -1,0 +1,577 @@
+[
+  {
+    "path": "assets/medieval/CODEX_ASSET_NOTES.txt",
+    "bytes": 497,
+    "ext": ".txt"
+  },
+  {
+    "path": "assets/medieval/_asset_manifest.json",
+    "bytes": 17490,
+    "ext": ".json"
+  },
+  {
+    "path": "assets/medieval/_conversion_map.txt",
+    "bytes": 13583,
+    "ext": ".txt"
+  },
+  {
+    "path": "assets/medieval/_rename_map.txt",
+    "bytes": 8711,
+    "ext": ".txt"
+  },
+  {
+    "path": "assets/medieval/buildings/ai/iaarmy.webp",
+    "bytes": 90394,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/buildings/ai/iacentercomand.webp",
+    "bytes": 85200,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/buildings/ai/iamine.webp",
+    "bytes": 97812,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/buildings/ai/iapetrol.webp",
+    "bytes": 72354,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/buildings/ai/iaplantaenergia.webp",
+    "bytes": 86828,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/buildings/ai/iawater.webp",
+    "bytes": 80396,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/buildings/human/wwia_human_barracks.webp",
+    "bytes": 78140,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/buildings/human/wwia_human_command_center.webp",
+    "bytes": 77252,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/buildings/human/wwia_human_energy.webp",
+    "bytes": 75052,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/buildings/human/wwia_human_mine.webp",
+    "bytes": 78216,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/buildings/human/wwia_human_oil_well.webp",
+    "bytes": 76920,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/buildings/human/wwia_human_water_well.webp",
+    "bytes": 62082,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/logo/logowia.webp",
+    "bytes": 21922,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/plates/001.webp",
+    "bytes": 82320,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/plates/002.webp",
+    "bytes": 133806,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/plates/003.webp",
+    "bytes": 101096,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/plates/004.webp",
+    "bytes": 78004,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/plates/005.webp",
+    "bytes": 67880,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/plates/006.webp",
+    "bytes": 115998,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/plates/007.webp",
+    "bytes": 94014,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/plates/008.webp",
+    "bytes": 133620,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/plates/009.webp",
+    "bytes": 114566,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/plates/010.webp",
+    "bytes": 105190,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/intro/video/intro.mp4",
+    "bytes": 8059185,
+    "ext": ".mp4"
+  },
+  {
+    "path": "assets/medieval/intro/video/logo.mp4",
+    "bytes": 6520443,
+    "ext": ".mp4"
+  },
+  {
+    "path": "assets/medieval/maps/mainz_1450.json",
+    "bytes": 1835,
+    "ext": ".json"
+  },
+  {
+    "path": "assets/medieval/maps/mainz_1450.webp",
+    "bytes": 653514,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/maps/mainz_1450_overlay.webp",
+    "bytes": 82294,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iadroneabajo.webp",
+    "bytes": 44888,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iadroneabajoderecha.webp",
+    "bytes": 39324,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iadroneabajoizq.webp",
+    "bytes": 43114,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iadronearriba.webp",
+    "bytes": 44970,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iadronearribader.webp",
+    "bytes": 35968,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iadronearribaizq.webp",
+    "bytes": 38254,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iadroneder.webp",
+    "bytes": 28766,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iadroneizq.webp",
+    "bytes": 24550,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iaknigthabajo.webp",
+    "bytes": 48654,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iaknigthabajoder2.webp",
+    "bytes": 44810,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iaknigtharriba.webp",
+    "bytes": 47092,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iaknigtharribaderecha.webp",
+    "bytes": 40434,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iaknigtharribaizq.webp",
+    "bytes": 39688,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/iaknigtharribaizq2.webp",
+    "bytes": 51954,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/laserabajo.webp",
+    "bytes": 50662,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/laserabajodere2.webp",
+    "bytes": 52630,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/laserabajoderechaarriba2.webp",
+    "bytes": 50096,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/laserabajoizq2.webp",
+    "bytes": 53056,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/laserarriba.webp",
+    "bytes": 53112,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/laserderecha.webp",
+    "bytes": 54872,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/laserizq.webp",
+    "bytes": 43804,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/sacerdoteabajoderecha.webp",
+    "bytes": 53656,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/sacerdotearriba.webp",
+    "bytes": 50520,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/sacerdotearribaderecha.webp",
+    "bytes": 43906,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/sacerdotearribaizq.webp",
+    "bytes": 47110,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/sacerdotederecha.webp",
+    "bytes": 47928,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/sacerdoteizq.webp",
+    "bytes": 47558,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/sacerdoteizqabajo.webp",
+    "bytes": 48192,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/sacerdoteqabajo.webp",
+    "bytes": 47218,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/siegeaaribaderecha.webp",
+    "bytes": 61300,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/siegeaaribaizq.webp",
+    "bytes": 52760,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/siegeabajo.webp",
+    "bytes": 64448,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/siegeabajoderecha.webp",
+    "bytes": 61444,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/siegeabajoderecha2.webp",
+    "bytes": 70338,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/siegeabajoizq2.webp",
+    "bytes": 59554,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/siegearriba.webp",
+    "bytes": 47308,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/siegederecha.webp",
+    "bytes": 51524,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/ai/siegeizquierda.webp",
+    "bytes": 49542,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arponabajo.webp",
+    "bytes": 36424,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arponabajoder.webp",
+    "bytes": 35948,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arponabajoizq.webp",
+    "bytes": 38240,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arponarriba.webp",
+    "bytes": 29214,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arponarribader.webp",
+    "bytes": 34700,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arponarribaizq.webp",
+    "bytes": 34068,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arponizq.webp",
+    "bytes": 42610,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arqueroabajo.webp",
+    "bytes": 29916,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arqueroabajoderecha.webp",
+    "bytes": 34242,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arqueroabajoizq.webp",
+    "bytes": 33820,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arqueroabajoizq2.webp",
+    "bytes": 42586,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arqueroarriba.webp",
+    "bytes": 31220,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arqueroarribader.webp",
+    "bytes": 28382,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arqueroarribaizq.webp",
+    "bytes": 31740,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/arqueroderecha.webp",
+    "bytes": 41424,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/caballoabajo.webp",
+    "bytes": 40950,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/caballoabajoder.webp",
+    "bytes": 47652,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/caballoabajoizq.webp",
+    "bytes": 55122,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/caballoabajoizq_2.webp",
+    "bytes": 51804,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/caballoarribaderecha.webp",
+    "bytes": 47842,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/caballoarribaizq.webp",
+    "bytes": 47312,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/caballoarrobader.webp",
+    "bytes": 31710,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/canonabajoder.webp",
+    "bytes": 40538,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/canonabajoder2.webp",
+    "bytes": 40342,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/canonabajoderreducido.webp",
+    "bytes": 42938,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/canonabajoizq.webp",
+    "bytes": 40856,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/canonarriba.webp",
+    "bytes": 27874,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/canonarribader.webp",
+    "bytes": 41150,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/canonarribaizq.webp",
+    "bytes": 38208,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/canonderecha.webp",
+    "bytes": 37904,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/canonizq.webp",
+    "bytes": 37926,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/espadaabajo.webp",
+    "bytes": 38534,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/espadaabajoder.webp",
+    "bytes": 35064,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/espadaabajoizq.webp",
+    "bytes": 42466,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/espadaarriba.webp",
+    "bytes": 35992,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/espadaarribader.webp",
+    "bytes": 37726,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/espadaarribaizq.webp",
+    "bytes": 34788,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/espadaizq.webp",
+    "bytes": 46240,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/mosquetero_abajo_derecha.webp",
+    "bytes": 41366,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/mosquetero_abajo_derechasalida.webp",
+    "bytes": 42062,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/mosquetero_arriba_izquierda.webp",
+    "bytes": 38892,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/mosquetonabajoizq.webp",
+    "bytes": 39832,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/mosquetonarribader.webp",
+    "bytes": 34092,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/mosquetonderecha.webp",
+    "bytes": 34222,
+    "ext": ".webp"
+  },
+  {
+    "path": "assets/medieval/units/human/mosquetonizq.webp",
+    "bytes": 34432,
+    "ext": ".webp"
+  }
+]

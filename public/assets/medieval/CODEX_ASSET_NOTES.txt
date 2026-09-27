@@ -1,0 +1,10 @@
+WWIA Medieval visual assets — cleaned WebP version.
+
+Use this folder as-is: public/assets/medieval/
+All PNG/JPG visual assets were converted to WebP and filenames were normalized.
+Intro plates were already WebP and were copied exactly. Use them locked, ordered by filename.
+Main map: maps/mainz_1450.webp
+Overlay: maps/mainz_1450_overlay.webp
+Map metadata: maps/mainz_1450.json
+Videos: intro/video/intro.mp4 and intro/video/logo.mp4
+See _rename_map.txt and _conversion_map.txt for path mapping.
