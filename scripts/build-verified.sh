@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
 if [[ "${SITES_ENV_READY:-}" != "1" ]]; then
 exec bash "${script_dir}/sites-env.sh" -- "$0" "$@"
@@ -25,4 +25,4 @@ timeout \
   "${SITES_BUILD_TIMEOUT:-3m}" \
   "${vinext}" build
 
-bash "${script_dir}/validate-artifact.sh"
+"${script_dir}/validate-artifact.sh"
