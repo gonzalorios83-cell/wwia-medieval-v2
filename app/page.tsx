@@ -1510,17 +1510,23 @@ export default function Home() {
   const returnToMenu = useCallback(() => { if (introAudioRef.current) { introAudioRef.current.pause(); introAudioRef.current.currentTime = 0; introAudioRef.current = null; } multiplayerTransportRef.current?.close(); multiplayerTransportRef.current = null; multiplayerRoleRef.current = "none"; multiplayerActiveRef.current = false; multiplayerHostRef.current = false; multiplayerGuestRef.current = false; multiplayerMatchStartingRef.current = false; activeStoryRunRef.current = null; setPlayMode("free"); setShowOperationSetup(true); setMenuScreen("main"); statusRef.current = "menu"; setStatus("menu"); }, []);
   const preloadMissionVisuals = useCallback(async (setup: OperationSetup, useCustomMap: boolean) => {
     const profile = useCustomMap ? customMapRef.current : null;
+    const isMedieval = setup.scenario === "mainz";
     const fallbackFigures = isSpaceScenario(setup.scenario)
       ? ["rifle", "tank"].flatMap(type => ["right", "up-right", "up", "up-left", "left", "down-left", "down", "down-right"].map(direction => `/assets/units/space/${type}-${direction}.png`)).concat(["right", "up-right", "up", "left", "down-left", "down", "down-right"].map(direction => `/assets/units/space/recon-${direction}.png`))
       : ["/assets/units/human-rifle.png", "/assets/units/human-recon.png", "/assets/units/human-apc.png", "/assets/units/human-tank.png", "/assets/units/ai-rifle.png", "/assets/units/ai-recon.png", "/assets/units/ai-apc.png", "/assets/units/ai-tank.png"];
     const preparedFigures = [...Object.values(unitAssetRef.current), ...Object.values(buildingAssetRef.current)]
-      .map(image => image.currentSrc || image.src).filter(Boolean);
+      .map(image => image.currentSrc || image.src)
+      .filter(Boolean)
+      .filter(source => !isMedieval || source.includes("/assets/medieval/"));
     const terrainSource = profile?.terrain || SCENARIOS[setup.scenario].terrain;
     const paths = [...new Set([
       terrainSource,
-      profile?.navigation || SCENARIOS[setup.scenario].navigation,
-      "/assets/wwia-sprites.png", "/assets/wwia-building-sprites.png",
-      ...fallbackFigures, ...preparedFigures,
+      ...(isMedieval ? [] : [
+        profile?.navigation || SCENARIOS[setup.scenario].navigation,
+        "/assets/wwia-sprites.png", "/assets/wwia-building-sprites.png",
+        ...fallbackFigures,
+      ]),
+      ...preparedFigures,
       ...(setup.scenario === "venus" ? Object.values(VENUS_EFFECT_ASSETS) : []),
     ].filter(Boolean))];
     let loaded = 0;
